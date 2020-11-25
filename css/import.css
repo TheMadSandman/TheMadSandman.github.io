@@ -166,3 +166,12 @@ footer h4 {
 
 .section-pricing .cta, .section-newsletter .cta {
   text-transform: capitalize; }
+
+table tr:not(:last-child) td {
+  padding-bottom: 10px; }
+
+table td:first-child {
+  padding-right: 5px; }
+
+body {
+  background-color: gray; }
