@@ -7,13 +7,21 @@
 }
 
 //Navs
-nav a {
-    color: $color-font-white;
-    font-family: $ff-poppins;
-    text-decoration: none;
+nav {
+    li {
+        list-style: none;
+    }
 
-    &:hover {
-        text-decoration: underline $color-font-white;
+    a {
+        color: $color-font-white;
+        font-family: $ff-poppins;
+        text-decoration: none;
+
+        
+
+        &:hover {
+            text-decoration: underline $color-font-white;
+        }
     }
 }
 header nav a {
