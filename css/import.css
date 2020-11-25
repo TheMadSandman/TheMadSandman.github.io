@@ -146,3 +146,23 @@ footer h4 {
   font-weight: 500;
   font-size: 20px;
   text-transform: capitalize; }
+
+.cta {
+  border-radius: 500px; }
+  .cta-purple {
+    color: #ffffff;
+    background: linear-gradient(to left, #6156f9 0%, #1a129f 45%);
+    border: transparent; }
+  .cta-white {
+    border: solid 1px #1000ff;
+    color: #42495b; }
+  .cta-big {
+    padding: 15px 40px 14px; }
+  .cta-small {
+    padding: 6px 18px; }
+
+.section-hero .cta, .section-biography .cta, .section-services .cta {
+  text-transform: uppercase; }
+
+.section-pricing .cta, .section-newsletter .cta {
+  text-transform: capitalize; }

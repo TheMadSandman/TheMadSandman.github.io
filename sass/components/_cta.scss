@@ -1,0 +1,32 @@
+
+// .cta {
+//     @extend %test;
+// }
+
+.cta {
+    border-radius: 500px;
+    
+    &-purple {
+        color: $color-font-white;
+        background: $gradient-cta-purple;
+        border: transparent;
+    }
+    &-white {
+        border: solid 1px $color-cta-border-blue;
+        color: $color-font-grey-dark;
+    }
+    
+    &-big {
+        padding: $padding-cta-large;
+    }
+    &-small {
+        padding: $padding-cta-small;
+    }
+}
+
+.section-hero .cta, .section-biography .cta, .section-services .cta {
+    text-transform: uppercase;
+}
+.section-pricing .cta, .section-newsletter .cta {
+    text-transform: capitalize;
+}
