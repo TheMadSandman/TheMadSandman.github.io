@@ -1,0 +1,26 @@
+{
+  "name": "front-gulp-sass---dw1-themadsandman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-TheMadSandman.git"
+  },
+  "author": "Martin de Boutray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-TheMadSandman/issues"
+  },
+  "homepage": "https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-TheMadSandman#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}
