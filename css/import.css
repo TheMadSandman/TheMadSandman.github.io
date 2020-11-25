@@ -176,5 +176,9 @@ table tr:not(:last-child) td {
 table td:first-child {
   padding-right: 5px; }
 
+.content-container {
+  width: 80%;
+  margin: 0 auto; }
+
 body {
   background-color: gray; }
