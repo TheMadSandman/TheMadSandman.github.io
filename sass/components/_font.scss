@@ -1,0 +1,172 @@
+.logo p {
+    color: $color-font-grey-dark;
+    font-family: $ff-dosis;
+    font-size: $fs-title-logo;
+    font-weight: $bold;
+    text-transform: capitalize;
+}
+
+//Navs
+nav a {
+    color: $color-font-white;
+    font-family: $ff-poppins;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline $color-font-white;
+    }
+}
+header nav a {
+    font-size: $fs-header-nav;
+    font-weight: $medium;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: $color-font-grey-dark;
+    font-family: $ff-poppins;
+    font-size: $fs-title;
+    font-weight: $regular;
+    text-transform: uppercase;
+    
+    span {
+        font-size: $fs-title-main;
+        font-weight: $bold;
+    }
+}
+
+//Paragraphs
+.section-hero p, .section-biography p, .section-pricing p {
+    color: $color-font-grey-light;
+    font-family: $ff-poppins;
+    font-size: $fs-paragraph-medium;
+    font-weight: $light;
+}
+.section-services p {
+    color: $color-font-grey-dark;
+    font-family: $ff-lato;
+    font-size: $fs-paragraph-small;
+    font-weight: $regular;
+}
+.section-hero p {
+    text-transform: uppercase;
+}
+
+//CTAs
+.cta-font-normal {
+    font-family: $ff-poppins;
+    font-size: $fs-cta-normal;
+    font-weight: $medium;
+    text-decoration: none;
+}
+.cta-font-small {
+    font-family: $ff-poppins;
+    font-size: $fs-cta-small;
+    font-weight: $medium;
+    text-decoration: none;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: $color-font-grey-dark;
+    font-family: $ff-poppins;
+    font-size: $fs-title;
+    font-weight: $semi-bold;
+}
+.section-newsletter h2 {
+    font-size: $fs-title-footer;
+    font-weight: $regular;
+    text-transform: lowercase;
+    
+    &::first-letter {
+        text-transform: uppercase;
+    }
+    
+    span {
+        text-transform: capitalize;
+        font-weight: $semi-bold;
+    }
+}
+
+h3 {
+    color: $color-font-purple-light;
+    font-family: $ff-lobster;
+    font-size: $fs-subtitle-medium;
+    font-weight: $regular;
+    text-transform: capitalize;
+}
+.section-services h3 {
+    font-family: $ff-lato;
+    font-size: $fs-subtitle-big;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: $ff-poppins;
+    color: $color-font-grey-dark;
+}
+.section-services h4 {
+    font-weight: $semi-bold;
+    font-size: $fs-subtitle-small;
+    text-transform: uppercase;
+}
+.section-pricing h4 {
+    font-family: $ff-lobster;
+    font-weight: $regular;
+    font-size: $fs-subtitle-biggest;
+    text-transform: capitalize;
+}
+
+.price {
+    font-family: $ff-poppins !important;
+    font-weight: $semi-bold !important;
+    font-size: $fs-paragraph-big !important;
+    color: $color-font-blue !important;
+}
+
+input {
+    color: $color-font-grey-dark;
+    font-size: $fs-form;
+    font-family: $ff-poppins;
+    
+    &::placeholder {
+        color: $color-form-font;
+        font-family: $ff-poppins;
+        text-transform: capitalize;
+        font-size: $fs-form;
+    }
+}
+
+footer {
+    * {
+        color: $color-font-white;
+        font-family: $ff-poppins;
+        font-size: $fs-paragraph-medium;
+    }
+    nav a {
+        font-size: $fs-footer-nav;
+        font-weight: $regular;
+        text-transform: capitalize;
+    }
+    
+    h2 {
+        font-family: $ff-dosis;
+        text-transform: lowercase;
+        font-size: $fs-title;
+        font-weight: $extra-bold;
+    }
+    h3 {
+        font-family: $ff-poppins;
+        font-size: $fs-title-footer;
+        text-transform: lowercase;
+        
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+    h4 {
+        font-weight: $medium;
+        font-size: $fs-subtitle-medium;
+        text-transform: capitalize;
+    }
+}

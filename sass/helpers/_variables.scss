@@ -1,0 +1,60 @@
+//Font families
+$ff-poppins: 'Poppins', sans-serif;
+$ff-lobster: 'Lobster', cursive;
+$ff-lato   : 'Lato', sans-serif;
+$ff-dosis  : 'Dosis', sans-serif;
+
+//Font sizes
+$fs-title-main     : 74px;
+$fs-title          : 50px;
+$fs-title-logo     : 40px;
+$fs-title-newletter: 32px;
+$fs-title-footer   : 31px;
+
+$fs-subtitle-biggest: 28px;
+$fs-subtitle-big    : 25px;
+$fs-subtitle-medium : 20px;
+$fs-subtitle-small  : 18px;
+
+$fs-paragraph-big   : 30px;
+$fs-paragraph-medium: 16px;
+$fs-paragraph-small : 15px;
+
+$fs-header-nav: 16px;
+$fs-footer-nav: 16px;
+
+$fs-cta-normal: 16px;
+$fs-cta-small : 12px;
+
+$fs-form: 12px;
+
+//font weights
+$light     : 300;
+$regular   : 400;
+$medium    : 500;
+$semi-bold : 600;
+$bold      : 700;
+$extra-bold: 800;
+
+//Colors
+$color-cta-purple-light: #6156f9;
+$color-cta-purple-dark : #1a129f;
+$color-cta-border-blue : #1000ff;
+$gradient-cta-purple   : linear-gradient(to left, $color-cta-purple-light 0%, $color-cta-purple-dark 45%);
+
+$color-background-purple-light: rgba(127, 118, 249, 0.15);
+
+$color-form-font      : rgba(153, 153, 153, 0.6);
+$color-form-background: #f6f7fb;
+
+$color-font-purple-light: #7e76f9;
+$color-font-white       : #ffffff;
+$color-font-grey-dark   : #42495b;
+$color-font-grey-light  : #7a839e;
+$color-font-blue        : #1000ff;
+
+//Padding
+$padding-form     : 18px 30px 17px;
+$padding-cta-large: 15px 40px 14px;
+$padding-cta-small: 6px 18px;
+$padding-cards    : 30px;
