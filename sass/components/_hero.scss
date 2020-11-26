@@ -1,0 +1,9 @@
+.section-hero {
+    height: 100vh;
+    z-index: 0;
+    background: url('../assets/img/phone.png') no-repeat center right 60px / auto 70vh, url('../assets/img/wave.svg') no-repeat top -2px right -2px / 55% auto;
+
+    .content-container {
+        padding-top: $header-height + 75px;
+    }
+}

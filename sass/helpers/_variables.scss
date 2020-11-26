@@ -1,10 +1,10 @@
-//Font families
+// -----Font families -----
 $ff-poppins: 'Poppins', sans-serif;
 $ff-lobster: 'Lobster', cursive;
 $ff-lato   : 'Lato', sans-serif;
 $ff-dosis  : 'Dosis', sans-serif;
 
-//Font sizes
+//----- Font sizes -----
 $fs-title-main     : 74px;
 $fs-title          : 50px;
 $fs-title-logo     : 40px;
@@ -28,7 +28,7 @@ $fs-cta-small : 12px;
 
 $fs-form: 12px;
 
-//font weights
+//----- Font weights -----
 $light     : 300;
 $regular   : 400;
 $medium    : 500;
@@ -36,7 +36,7 @@ $semi-bold : 600;
 $bold      : 700;
 $extra-bold: 800;
 
-//Colors
+//----- Colors -----
 $color-cta-purple-light: #6156f9;
 $color-cta-purple-dark : #1a129f;
 $color-cta-border-blue : #1000ff;
@@ -53,8 +53,14 @@ $color-font-grey-dark   : #42495b;
 $color-font-grey-light  : #7a839e;
 $color-font-blue        : #1000ff;
 
-//Padding
-$padding-form     : 18px 30px 17px;
-$padding-cta-large: 15px 40px 14px;
-$padding-cta-small: 6px 18px;
-$padding-cards    : 30px;
+//----- Padding -----
+$padding-form              : 18px 30px 17px;
+$padding-cta-large         : 15px 40px 14px;
+$padding-cta-small         : 6px 18px;
+$padding-cards             : 30px;
+$padding-header-nav-buttons: 3px 6px;
+
+//---- Sizes -----
+$header-height: 125px;
+$container-width: 80%;
+$container-width-smaller: 70%;

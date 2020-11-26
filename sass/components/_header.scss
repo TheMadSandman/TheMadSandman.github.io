@@ -1,0 +1,41 @@
+header {
+    height: $header-height;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+    .content-container {
+        width: $container-width-smaller;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+
+        p {
+            margin: 0 0 5px 10px;
+        }
+    }
+
+    nav {
+        flex: 0 1 400px;
+
+        ul {
+            display: flex;
+            flex-direction: row nowrap;
+            justify-content: space-between;
+            align-content: center;
+        }
+
+        a{
+            padding: $padding-header-nav-buttons;
+        }
+    }
+}
