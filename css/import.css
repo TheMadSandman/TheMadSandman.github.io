@@ -221,7 +221,49 @@ header {
   z-index: 0;
   background: url("../assets/img/phone.png") no-repeat center right 60px/auto 70vh, url("../assets/img/wave.svg") no-repeat top -2px right -2px/55% auto; }
   .section-hero .content-container {
-    padding-top: 200px; }
+    width: 70%;
+    height: 100%;
+    padding-top: 200px;
+    position: relative; }
+  .section-hero p {
+    margin-top: 10px; }
+  .section-hero .cta {
+    margin-top: 15px; }
+  .section-hero .socials {
+    height: 210px;
+    width: min-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: -100px;
+    top: 340px; }
+    .section-hero .socials::after {
+      content: '';
+      width: 3px;
+      height: 30px;
+      background: linear-gradient(to left, #6156f9 0%, #1a129f 45%); }
+    .section-hero .socials img {
+      width: 10px;
+      height: auto; }
+  .section-hero .mouse {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 500px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+    margin-bottom: 15px; }
+    .section-hero .mouse a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 500px;
+      display: flex;
+      justify-content: center;
+      align-content: center; }
 
 main {
   position: absolute;

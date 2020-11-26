@@ -61,14 +61,19 @@ $padding-cards             : 30px;
 $padding-header-nav-buttons: 3px 6px;
 
 //---- Sizes -----
-$header-height: 125px;
-$container-width: 80%;
+$header-height          : 125px;
+$container-width        : 80%;
 $container-width-smaller: 70%;
+$mouse-dimension        : 80px;
 $cta-big-height         : 50px;
 $cta-small-height       : 30px;
+
 
 //Screen sizes
 $screen-sm: 576px;
 $screen-md: 768px;
 $screen-lg: 992px;
 $screen-xl: 1200px;
+
+//Shadow
+$shadow-mouse: 0 10px 20px 0 rgba(126, 118, 249, 0.16);

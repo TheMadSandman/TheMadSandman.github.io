@@ -4,6 +4,62 @@
     background: url('../assets/img/phone.png') no-repeat center right 60px / auto 70vh, url('../assets/img/wave.svg') no-repeat top -2px right -2px / 55% auto;
 
     .content-container {
+        width: $container-width-smaller;
+        height: 100%;
         padding-top: $header-height + 75px;
+        position: relative;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    .cta {
+        margin-top: 15px;
+    }
+
+    .socials {
+        height: 210px;
+        width: min-content;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: -100px;
+        top: 340px;
+
+        &::after {
+            content: '';
+            width: 3px;
+            height: 30px;
+            background: $gradient-cta-purple;
+        }
+
+        img {
+            width: 10px;
+            height: auto;
+        }
+    }
+
+    .mouse {
+        width: $mouse-dimension;
+        height: $mouse-dimension;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        border-radius: 500px;
+        box-shadow: $shadow-mouse;
+        margin-bottom: 15px;
+        
+        a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            border-radius: 500px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
     }
 }
