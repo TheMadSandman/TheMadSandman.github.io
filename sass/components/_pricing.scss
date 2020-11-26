@@ -1,0 +1,38 @@
+.section-pricing {
+    background-color: $color-background-purple-light;
+    padding: 90px 0;
+    
+    .content-container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-container {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .card-pricing {
+        height: 460px;
+        border-radius: 26px;
+        padding: $padding-cards-pricing;
+        align-items: center;
+
+        &:nth-child(2) {
+            margin: 0 10px;
+        }
+
+        h4 {
+            white-space: nowrap;
+        }
+
+        p, h4 {
+            text-align: center;
+        }
+    }
+    //TODO Régler l'agencement des cartes verticalement quand trop petites
+}

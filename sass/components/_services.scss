@@ -9,26 +9,16 @@
     }
 
     .card-container {
-        width: 100%;
-        // position: relative;
-        // z-index: 1;
-        display: flex;
-        flex-flow: row wrap;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-content: space-between;
     }
     
     .card-services {
-        flex: 0 1 360px;
-        height: 400px;
+        height: 410px;
         border-radius: 36px;
-        box-shadow: $shadow-card;
-        padding: $padding-cards;
+        padding: $padding-cards-services;
         margin-top: 90px;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-between;
-        background-color: $color-background-white;
 
         img {
             height: $card-image-dimension;

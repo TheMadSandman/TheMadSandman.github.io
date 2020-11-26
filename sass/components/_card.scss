@@ -1,0 +1,14 @@
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    flex: 0 1 370px; //width
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    box-shadow: $shadow-card;
+    background-color: $color-background-white;
+}
