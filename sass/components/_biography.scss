@@ -1,0 +1,19 @@
+.section-biography {
+    height: 660px;
+    background: url('../assets/img/we-are.png') no-repeat center left 60px / auto 70vh, url('../assets/img/background-we-are.png') no-repeat center right / 55% auto;
+    display: flex;
+    align-items: center;
+
+    .content-container {
+        height: min-content;
+        padding-left: 40%;
+    }
+
+    p:last-of-type {
+        margin-top: 15px;
+    }
+
+    .cta {
+        margin-top: 25px;
+    }
+}

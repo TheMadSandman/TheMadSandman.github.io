@@ -268,3 +268,16 @@ header {
 main {
   position: absolute;
   top: 0; }
+
+.section-biography {
+  height: 660px;
+  background: url("../assets/img/we-are.png") no-repeat center left 60px/auto 70vh, url("../assets/img/background-we-are.png") no-repeat center right/55% auto;
+  display: flex;
+  align-items: center; }
+  .section-biography .content-container {
+    height: min-content;
+    padding-left: 40%; }
+  .section-biography p:last-of-type {
+    margin-top: 15px; }
+  .section-biography .cta {
+    margin-top: 25px; }
