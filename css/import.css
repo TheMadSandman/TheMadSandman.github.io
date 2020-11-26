@@ -165,7 +165,8 @@ footer h4 {
   .cta-big {
     padding: 0 40px;
     height: 50px;
-    line-height: 50px; }
+    line-height: 50px;
+    min-width: 171px; }
   .cta-small {
     padding: 0 20px;
     height: 30px;
