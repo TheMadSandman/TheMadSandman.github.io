@@ -1,12 +1,14 @@
 .section-biography {
-    height: 660px;
-    background: url('../assets/img/we-are.png') no-repeat center left 60px / auto 70vh, url('../assets/img/background-we-are.png') no-repeat center right / 55% auto;
+    background: url('../assets/img/we-are.png') no-repeat center left calc(10% - 25px) / auto 90%, url('../assets/img/background-we-are.png') no-repeat center right / 55% auto;
     display: flex;
     align-items: center;
 
+    @include media('large') {
+        background: url('../assets/img/we-are.png') no-repeat center left calc(10% - 25px) / 45% auto, url('../assets/img/background-we-are.png') no-repeat center right / 55% auto;
+    }
+
     .content-container {
-        height: min-content;
-        padding-left: 40%;
+        padding: 125px 0 110px 40%;
     }
 
     p:last-of-type {

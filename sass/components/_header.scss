@@ -11,6 +11,10 @@ header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        @include media('large') {
+            width: $container-width;
+        }
     }
 
     .logo {
@@ -22,16 +26,30 @@ header {
         p {
             margin: 0 0 5px 10px;
         }
+
+        @include media('medium') {
+            img {
+                height: 60px;
+                width: auto;
+            }
+        }
     }
 
     nav {
         flex: 0 1 400px;
+        @include media('medium') {
+            flex: 0 1 200px;
+        }
 
         ul {
             display: flex;
             flex-flow: row nowrap;
             justify-content: space-between;
             align-content: center;
+
+            @include media('medium') {
+                flex-wrap: wrap;
+            }
         }
 
         a{

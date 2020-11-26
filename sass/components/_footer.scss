@@ -9,10 +9,29 @@ footer {
         justify-content: space-between;
         align-items: flex-start;
         padding: 250px 0 90px;
+        
+        @include media('large') {
+            width: 90%;
+        }
+
+        @include media('medium') {
+            width: 95%;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
     }
 
     section {
         margin: 0 10px;
+
+        @include media('medium') {
+            width: calc((100% / 2) - 20px);
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            margin: 0;
+        }
     }
     .logo-section {
         height: 175px;
@@ -50,10 +69,18 @@ footer {
 
     li, .contact p, td {
         margin-bottom: 15px;
+
+        @include media('medium') {
+            margin-bottom: 5px;
+        }
     }
 
     h4 {
         margin-bottom: 40px;
+
+        @include media('medium') {
+            margin-bottom: 10px;
+        }
     }
 
     h4, h3, td {
@@ -61,10 +88,6 @@ footer {
     }
 
     table {
-        // tr:not(:last-child) td {
-        //     padding-bottom: 15px;
-        // }
-        
         td:first-child {
             padding-right: 10px;
 

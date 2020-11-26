@@ -1,27 +1,7 @@
-// Small devices
-@mixin sm {
-   @media (min-width: #{$screen-sm}) {
-       @content;
-   }
-}
- 
-// Medium devices
-@mixin md {
-   @media (min-width: #{$screen-md}) {
-       @content;
-   }
-}
- 
-// Large devices
-@mixin lg {
-   @media (min-width: #{$screen-lg}) {
-       @content;
-   }
-}
- 
-// Extra large devices
-@mixin xl {
-   @media (min-width: #{$screen-xl}) {
-       @content;
-   }
+@mixin media($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+      @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+      }
+    }
 }

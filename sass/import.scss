@@ -1,17 +1,17 @@
 @import './helpers/variables.scss';
 
 @import './components/reset.scss';
-@import './components/mediaqueries';
+@import './components/mediaqueries.scss';
 @import './components/font.scss';
+@import './components/card.scss';
 @import './components/cta.scss';
-@import './components/footer.scss';
+@import './components/socials.scss';
 @import './components/container.scss';
 @import './components/header.scss';
-@import './components/hero.scss';
 @import './components/main.scss';
+@import './components/hero.scss';
 @import './components/biography.scss';
-@import './components/card.scss';
 @import './components/services.scss';
 @import './components/pricing.scss';
 @import './components/newsletter.scss';
-@import './components/socials.scss';
+@import './components/footer.scss';

@@ -61,6 +61,7 @@ $padding-cta-big           : 0 40px;
 $padding-cta-small         : 0 20px;
 $padding-cards-services    : 30px;
 $padding-cards-pricing     : 57px 40px 53px;
+$padding-cards-pricing-sm  : 57px 20px 53px;
 $padding-header-nav-buttons: 3px 6px;
 
 //---- Sizes -----
@@ -73,12 +74,12 @@ $cta-small-height       : 30px;
 $card-image-dimension   : 90px;
 
 
-//Screen sizes
-$screen-sm: 576px;
-$screen-md: 768px;
-$screen-lg: 992px;
-$screen-xl: 1200px;
-
+//Breakboints
+$breakpoints: (
+    'small': 600px,
+    'medium': 900px,
+    'large': 1200px,
+);
 //Shadow
 $shadow-mouse: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
 $shadow-card: 0 10px 20px 0 rgba(126, 118, 249, 0.1);

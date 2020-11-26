@@ -1,13 +1,28 @@
 .section-hero {
     height: 100vh;
     z-index: 0;
-    background: url('../assets/img/phone.png') no-repeat center right 60px / auto 70vh, url('../assets/img/wave.svg') no-repeat top -2px right -2px / 55% auto;
+    background: url('../assets/img/phone.png') no-repeat center right 15% / 40% auto, url('../assets/img/wave.svg') no-repeat top -2px right -2px / 50% auto;
+
+    @include media('large') {
+        background: url('../assets/img/phone.png') no-repeat center right 10% / 30% auto, url('../assets/img/wave.svg') no-repeat top -2px right -2px / 60% auto;
+    }
+    @include media('medium') {
+        background: url('../assets/img/wave.svg') no-repeat top -2px right -2px / 60% auto;
+        height: 375px;
+    }
 
     .content-container {
         width: $container-width-smaller;
         height: 100%;
         padding-top: $header-height + 75px;
         position: relative;
+
+        @include media('large') {
+            width: $container-width;
+        }
+        @include media('large') {
+            padding-top: $header-height;
+        }
     }
 
     p {
@@ -23,8 +38,15 @@
         width: min-content;
         flex-direction: column;
         position: absolute;
-            left: -100px;
+            left: -11%;
             top: 340px;
+
+        @include media('large') {
+            left: -7%;
+        }
+        @include media('medium') {
+            top: 200px;
+        }
 
         &::after {
             content: '';
@@ -48,6 +70,10 @@
         border-radius: 500px;
         box-shadow: $shadow-mouse;
         margin-bottom: 15px;
+
+        @include media('medium') {
+            display: none;
+        }
         
         a {
             display: block;

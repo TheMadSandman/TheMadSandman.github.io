@@ -6,7 +6,7 @@ const cleanCss = require('gulp-clean-css');
 function sass() {
     return src('./sass/import.scss')
     .pipe(gulpSass())
-    //.pipe(cleanCss()) //TODO penser à enlever ce commentaire avant le rendu
+    .pipe(cleanCss())
     .pipe(dest('./css/'))
     .pipe(browserSync.stream());
 }
