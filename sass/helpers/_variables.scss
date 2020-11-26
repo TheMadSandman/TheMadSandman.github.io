@@ -43,6 +43,7 @@ $color-cta-border-blue : #1000ff;
 $gradient-cta-purple   : linear-gradient(to left, $color-cta-purple-light 0%, $color-cta-purple-dark 45%);
 
 $color-background-purple-light: rgba(127, 118, 249, 0.15);
+$color-background-white: white;
 
 $color-form-font      : rgba(153, 153, 153, 0.6);
 $color-form-background: #f6f7fb;
@@ -67,6 +68,7 @@ $container-width-smaller: 70%;
 $mouse-dimension        : 80px;
 $cta-big-height         : 50px;
 $cta-small-height       : 30px;
+$card-image-dimension   : 90px;
 
 
 //Screen sizes
@@ -77,3 +79,4 @@ $screen-xl: 1200px;
 
 //Shadow
 $shadow-mouse: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+$shadow-card: 0 10px 20px 0 rgba(126, 118, 249, 0.1);

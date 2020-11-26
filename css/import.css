@@ -281,3 +281,32 @@ main {
     margin-top: 15px; }
   .section-biography .cta {
     margin-top: 25px; }
+
+.section-services {
+  background: url(../assets/img/background-service.png) no-repeat center/100% auto;
+  padding-bottom: 100px; }
+  .section-services h3, .section-services h2 {
+    margin-left: 35px; }
+  .section-services .card-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between; }
+  .section-services .card-services {
+    flex: 0 1 360px;
+    height: 400px;
+    border-radius: 36px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+    padding: 30px;
+    margin-top: 90px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: white; }
+    .section-services .card-services img {
+      height: 90px;
+      width: auto;
+      align-self: center; }
+    .section-services .card-services .cta {
+      align-self: flex-end; }

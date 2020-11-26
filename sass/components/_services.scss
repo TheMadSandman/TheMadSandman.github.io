@@ -1,0 +1,43 @@
+.section-services {
+    background: url(../assets/img/background-service.png) no-repeat center / 100% auto;
+    padding-bottom: 100px;
+    // position: relative;
+    // z-index: 0;
+
+    h3, h2 {
+        margin-left: 35px;
+    }
+
+    .card-container {
+        width: 100%;
+        // position: relative;
+        // z-index: 1;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    
+    .card-services {
+        flex: 0 1 360px;
+        height: 400px;
+        border-radius: 36px;
+        box-shadow: $shadow-card;
+        padding: $padding-cards;
+        margin-top: 90px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        background-color: $color-background-white;
+
+        img {
+            height: $card-image-dimension;
+            width: auto;
+            align-self: center;
+        }
+
+        .cta {
+            align-self: flex-end;
+        }
+    }
+}
