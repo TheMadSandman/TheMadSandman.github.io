@@ -1,0 +1,27 @@
+.section-newsletter {
+    height: 150px;
+    box-sizing: content-box;
+    padding: 135px 0 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    label {
+        display: none;
+    }
+
+    input {
+        height: $cta-big-height;
+        width: 430px;
+        padding: $padding-form;
+        margin-right: 20px;
+        margin-top: 30px;
+        background-color: $color-form-background;
+        border: transparent 2px;
+
+        &:focus {
+            border: 2px solid $color-form-border-focus;
+        }
+    }
+}

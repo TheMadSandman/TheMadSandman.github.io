@@ -341,3 +341,30 @@ main {
       white-space: nowrap; }
     .section-pricing .card-pricing p, .section-pricing .card-pricing h4 {
       text-align: center; }
+
+.section-newsletter {
+  height: 150px;
+  box-sizing: content-box;
+  padding: 135px 0 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  .section-newsletter label {
+    display: none; }
+  .section-newsletter input {
+    height: 50px;
+    width: 430px;
+    padding: 18px 30px 17px;
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color: #f6f7fb;
+    border: transparent 2px; }
+    .section-newsletter input:focus {
+      border: 2px solid #555555; }
+
+.socials {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
