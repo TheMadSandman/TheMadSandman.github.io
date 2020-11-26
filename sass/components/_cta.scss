@@ -5,6 +5,8 @@
 
 .cta {
     border-radius: 500px;
+    display: inline-block;
+    text-align: center;
     
     &-purple {
         color: $color-font-white;
@@ -17,10 +19,14 @@
     }
     
     &-big {
-        padding: $padding-cta-large;
+        padding: $padding-cta-big;
+        height: $cta-big-height;
+        line-height: $cta-big-height;
     }
     &-small {
         padding: $padding-cta-small;
+        height: $cta-small-height;
+        line-height: $cta-small-height;
     }
 }
 

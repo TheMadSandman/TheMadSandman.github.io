@@ -55,8 +55,8 @@ $color-font-blue        : #1000ff;
 
 //----- Padding -----
 $padding-form              : 18px 30px 17px;
-$padding-cta-large         : 15px 40px 14px;
-$padding-cta-small         : 6px 18px;
+$padding-cta-big           : 0 40px;
+$padding-cta-small         : 0 20px;
 $padding-cards             : 30px;
 $padding-header-nav-buttons: 3px 6px;
 
@@ -64,6 +64,8 @@ $padding-header-nav-buttons: 3px 6px;
 $header-height: 125px;
 $container-width: 80%;
 $container-width-smaller: 70%;
+$cta-big-height         : 50px;
+$cta-small-height       : 30px;
 
 //Screen sizes
 $screen-sm: 576px;
