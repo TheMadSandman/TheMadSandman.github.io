@@ -210,7 +210,7 @@ header {
     flex: 0 1 400px; }
     header nav ul {
       display: flex;
-      flex-direction: row nowrap;
+      flex-flow: row nowrap;
       justify-content: space-between;
       align-content: center; }
     header nav a {
