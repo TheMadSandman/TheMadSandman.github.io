@@ -1,9 +1,80 @@
-table {
-    tr:not(:last-child) td {
-        padding-bottom: 10px;
+footer {
+    background: url('../assets/img/footer.png') no-repeat top center;
+    background-size: cover;
+
+    .content-container {
+        width: 65%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 250px 0 90px;
     }
-    
-    td:first-child {
-        padding-right: 5px;
-      }
+
+    section {
+        margin: 0 10px;
+    }
+    .logo-section {
+        height: 175px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .socials {
+            width: 190px;
+            flex-direction: row;
+
+            img {
+                height: 18px;
+                width: auto;
+            }
+        }
+    }
+    .contact {
+        *::before {
+            width: 15px;
+            height: auto;
+            margin-right: 5px;
+        }
+        .phone::before {
+            content: url('../assets/picto/old-handphone.svg');
+        }
+        .email::before {
+            content: url('../assets/picto/envelope.svg');
+        }
+        .address::before {
+            content: url('../assets/picto/maps-and-flags.svg');
+        }
+    }
+
+    li, .contact p, td {
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        margin-bottom: 40px;
+    }
+
+    h4, h3, td {
+        white-space: nowrap;
+    }
+
+    table {
+        // tr:not(:last-child) td {
+        //     padding-bottom: 15px;
+        // }
+        
+        td:first-child {
+            padding-right: 10px;
+
+            &::first-letter {
+                text-transform: uppercase;
+            }
+
+            &::after {
+                content: ':';
+            }
+        }
+    }
 }

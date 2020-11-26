@@ -178,11 +178,52 @@ footer h4 {
 .section-pricing .cta, .section-newsletter .cta {
   text-transform: capitalize; }
 
-table tr:not(:last-child) td {
-  padding-bottom: 10px; }
-
-table td:first-child {
-  padding-right: 5px; }
+footer {
+  background: url("../assets/img/footer.png") no-repeat top center;
+  background-size: cover; }
+  footer .content-container {
+    width: 65%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 250px 0 90px; }
+  footer section {
+    margin: 0 10px; }
+  footer .logo-section {
+    height: 175px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center; }
+    footer .logo-section .socials {
+      width: 190px;
+      flex-direction: row; }
+      footer .logo-section .socials img {
+        height: 18px;
+        width: auto; }
+  footer .contact *::before {
+    width: 15px;
+    height: auto;
+    margin-right: 5px; }
+  footer .contact .phone::before {
+    content: url("../assets/picto/old-handphone.svg"); }
+  footer .contact .email::before {
+    content: url("../assets/picto/envelope.svg"); }
+  footer .contact .address::before {
+    content: url("../assets/picto/maps-and-flags.svg"); }
+  footer li, footer .contact p, footer td {
+    margin-bottom: 15px; }
+  footer h4 {
+    margin-bottom: 40px; }
+  footer h4, footer h3, footer td {
+    white-space: nowrap; }
+  footer table td:first-child {
+    padding-right: 10px; }
+    footer table td:first-child::first-letter {
+      text-transform: uppercase; }
+    footer table td:first-child::after {
+      content: ':'; }
 
 .content-container {
   width: 80%;
@@ -233,10 +274,7 @@ header {
   .section-hero .socials {
     height: 210px;
     width: min-content;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     position: absolute;
     left: -100px;
     top: 340px; }
